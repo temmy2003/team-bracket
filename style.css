@@ -1,0 +1,531 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: rgb(107, 2, 29);
+   
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+nav img {
+    width: 200px;
+}
+.nav-item a.nav-link:hover{
+    color: yellow !important;
+}
+.checkbtn{
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.baft {
+    display: flex;
+    column-gap: 170px;
+}
+.nav-buttons input {
+    border-radius: 2.5px;
+    border: 3px solid yellow;
+    width: 90px;
+    height: 50px;
+    font-size: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-1 {
+    background-image: url(./images/kidds.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 110vh;
+    text-align: center;
+    background-attachment: scroll;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1 h1 {
+    font-size: 70px;
+    color: white;
+}
+
+.section-1 h1 span {
+    color: yellow;
+}
+
+.section-1 p {
+    font-size: 30px;
+    color: white;
+}
+
+.section-1 .input input {
+    width: 160px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 4px;
+    border: none;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+.section-2 {
+    width: 90%;
+    margin: auto;
+}
+
+.topsection h1 {
+    text-align: center;
+    font-size: 60px;
+    /* margin-top: 50px; */
+}
+
+.row1img img {
+    width: 520px;
+    height: 260px;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row1text>h1 {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.row1text>p {
+    font-size: 25px;
+    font-weight: 350;
+    padding-top: 20px;
+}
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.row2img img {
+    width: 600px;
+    height: 300px;
+}
+
+.row2text>h1 {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.row2text>p {
+    font-size: 20px;
+    font-weight: 350;
+}
+
+.section-3 {
+    background-image: url(./images/feeding.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+.section-3 .intro h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
+}
+
+.section-3content {
+    /* margin-left: 150px;
+    margin-right: 150px; */
+    width: 90%;
+    margin: auto;
+    /* margin-bottom: 30px; */
+}
+
+.ovrcard {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    /* column-gap: 10px; */
+    justify-content: space-around;
+    /* align-items: center; */
+    padding-bottom: 30px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 30px;  */
+
+}
+
+.card {
+    width: 380px;
+    height: 470px;
+    background-color: transparent;
+    border: 2px solid white;
+    /* padding-bottom: 10px; */
+    z-index: -0;
+}
+
+.cardimg img {
+    width: 320px;
+    height: 320px;
+    
+}
+
+.cardtext {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    /* padding-top: 30px; */
+}
+
+.cardbutton button {
+    width: 200px;
+    height: 50px;
+    background-color: darkgray;
+    border: 2px solid yellow;
+    font-size: 15px;
+    /* margin-top: 10px; */
+}
+
+.cardbutton button a {
+    text-decoration: none;
+    color: white;
+}
+
+.cardcontent {
+    text-align: center;
+}
+
+.section-4 {
+    /* margin-left: 150px;
+    margin-right: 150px; */
+    margin: auto;
+    width: 90%;
+}
+
+.ovrcard2 {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 70px;
+    /* margin-top: 20px; */
+}
+
+.section-3content {
+    padding-bottom: 30px;
+}
+
+.intro2 h1 {
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+    /* padding-top: 30px; */
+    /* padding-bottom: 20px;  */
+}
+
+.card1 {
+    width: 380px;
+    height: 500px;
+    background-color: aliceblue;
+    border: 2px solid darkgray;
+}
+
+.card2A {
+    height: 290px;
+    /* width: 380px; */
+    background-image: url(./images/security-for-all.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.card2B {
+    height: 290px;
+    /* width: 380px; */
+    background-image: url(./images/beating-hunger.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.card2C {
+    height: 290px;
+    /* width: 380px; */
+    background-image: url(./images/fighting-diseases.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.bot {
+    width: 100px;
+    height: 50px;
+    border: 2px solid yellow;
+}
+
+.card1 h1 p {
+    font-size: 30px;
+
+}
+
+
+
+.section5 {
+    background-image: url(./images/feeding.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: auto;
+}
+
+.img img {
+    width: 370px;
+    height: 320px;
+    margin-top: 20px;
+}
+
+.finalcontent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* margin-left: 180px;
+    margin-right: 180px; */
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: transparent;
+    justify-content: space-around;
+}
+
+.cardlike h1 {
+    font-weight: 400;
+    color: white;
+    font-size: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cardlike p {
+    font-size: 22px;
+    color: white;
+}
+
+.cardlike {
+    text-align: center;
+}
+
+.footer {
+    background-color: cadetblue;
+    /* margin-top:50px; */
+}
+
+.footercontent {
+    /* margin-left: 220px;
+    margin-right: 220px; */
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    justify-content: space-between;
+    /* padding-top: 40px; */
+    /* padding-bottom: 40px; */
+
+}
+
+.footer h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.copyright {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footercontent a p {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.foot3 a {
+    text-decoration: none;
+}
+
+.foot3 {
+    /* border: 2px solid white; */
+    padding: 10px;
+}
+
+.foot1 {
+    /* border: 2px solid white; */
+    padding: 10px;
+}
+
+.foot2 {
+    /* border: 2px solid white; */
+    padding: 10px;
+}
+
+.foot2 a {
+    text-decoration: none;
+}
+
+.foot1 p {
+    font-size: 20px;
+    color: white;
+}
+
+.nav-buttons input:hover{
+    background-color: yellow;
+    color: white;
+    border:2px solid gray;
+}
+.input input:hover{
+    background-color: gray;
+    color: yellow;
+
+}
+.cardbutton button:hover{
+    background-color: yellow;
+}
+.bot:hover{
+    background-color: yellow;
+    color: white;
+}
+.navbar-nav .nav-item .nav-link.nav-link:hover{
+    color: yellow;
+}
+
+@media screen and (max-width:390px) {
+    .row1img img {
+        margin-top: 10px;
+        width: 310px;
+        height: 200px;
+    }
+
+    .row2img img {
+        width: 310px;
+        height: 200px;
+    }
+
+    /* .img img {
+        width: 200px;
+        height: 120px; */
+
+    /* } */
+}
+
+@media screen and (max-width:620px) {
+    .row1img img {
+        margin-top: 10px;
+        width: 310px;
+        height: 200px;
+    }
+
+    .section-1 {
+        height: 80vh;
+    }
+
+    .row2img img {
+        width: 310px;
+        height: 200px;
+    }
+
+    .card1 {
+        width: 450px;
+        height: 550px;
+    }
+
+    /* .img img {
+        width: 380px;
+        height: 320px; */
+    /* margin-top: 10px; */
+    /* } */
+    .nav-img img {
+        width: 140px;
+        height: 80px;
+    }
+
+}
+
+@media screen and (max-width:990px) {
+    .checkbtn {
+        display: block;
+    
+    }
+    .baft{
+        position:fixed;
+        width: 40%;
+        height: 100vh;
+        background-color:rgb(99, 40, 55);
+        top: 95px;
+        right: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    #check:checked ~ .baft{
+        right: 0;
+    }
+    .navbar{
+        position: sticky;
+        top: 0;
+        /* bottom: 90px; */
+        z-index: 2;
+
+    }
+    .baft {
+        display: block;
+        column-gap: 170px;
+    }
+    .nav-buttons input:hover{
+        background-color: yellow;
+        color: white;
+        border:2px solid gray;
+    }
+    .nav-item a.nav-link:hover{
+        color: yellow !important;
+    }
+
+
+}
